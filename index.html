@@ -1,0 +1,46 @@
+<style>
+    body{
+        background:black; 
+    }
+    .heading{
+        margin-top: 10%;
+        text-align: center;
+        color: yellow;
+    }
+    div{
+        
+        background-color:white;
+        margin-left: 35%;
+        margin-top: 5%;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(235, 221, 95, 1);
+    }
+    #check{
+        margin-top: 30px;
+    }
+    #guess{
+        margin-top: 30px;
+    }
+    h2{
+        padding-top: 20px;
+    }
+    input:focus{
+        outline:none;
+    }
+</style>
+<body>
+    <h1 class="heading">Let's Play a game  🎮🎮🎮</h1>
+    <div>
+    <h1>Guess th Number from 1 to 5</h1>
+    <input type="number" placeholder="Enter any Number" id="inp">
+    <button id="btn" onclick="checkthenumber()">Check</button>
+    <p id="check">You are Right/Wrong</p>
+    <p id="guess">Available Guesses: 3</p>
+
+    <h2></h2>
+    </div>
+</body>
+
+<script src="script.js"></script>
